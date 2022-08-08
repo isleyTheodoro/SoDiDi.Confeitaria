@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo/estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--FONT AWAN-->
+    <script src="https://kit.fontawesome.com/d9db4f6777.js" crossorigin="anonymous"></script>
+
+    <title>Sô-DiDi - Confeitaria</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light  didi-logo col-12 m-auto">
+
+        <button class="navbar-toggler ml-auto bg-light btn btn-secondary" type="button" data-toggle="collapse"
+            data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse ml-auto " id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item  ml-auto">
+                    <a class="nav-link text-secondary  btn btn-outline-success p-1 " href=https://wa.me/5511958507507?text=Olá!%20Vi%20seu%20cardápio%20e%20gostaria%20de%20fazer%20uma%20encomenda. target="_blank">
+                        Contato
+                        <i class="fa-brands fa-whatsapp ml-1"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide col-12 m-auto" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./img/chef-using-hands-to-and-flour-to-knead-the-dough.jpg"
+                    alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./img/front-view-sweet-bakery-arrangement-with-copy-space (1).jpg"
+                    alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="./img/ingredients-for-baking-on-a-dark-gray-background-flour-eggs-baking-powder-heart-shape-whisk-textiles-top-view-layout-of-a-pie-or-cake-recipe-with-cookies-banner.jpg"
+                    alt="Terceiro Slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    <!---=====================================================================================================-->
+
+    <main role="main">
+
+        <div class="container marketing ">
+
+
+            <!-- COMEÇAM AS MENCIONADAS FEATUREZINHAS xD -->
+
+            <hr class="featurette-divider ">
+
+            <div class="row featurette mt-5 primeiro-bloco">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading  cabecalho-cardapio">Pensou em festa
+                        <i class="fa-regular fa-question"></i>
+                        Faça já sua encomenda com a Sô-DiDi!
+
+                        <a  href=https://wa.me/5511958507507?text=Olá!%20Vi%20seu%20cardápio%20e%20gostaria%20de%20fazer%20uma%20encomenda. target="_blank" class="btn btn-outline-success btn-sm ml-1 " role="button"
+                            aria-pressed="true">
+                            whatsApp
+                            <i class="fa-brands fa-whatsapp ml-1"></i>
+                        </a>
+
+                    </h2>
+                    <p class=" text-muted text-center sobremesa">
+                        Não deixe para amanhã a Sobremesa que você pode Comer hoje!
+                        <i class="fa-solid fa-mug-hot"></i>
+                    </p>
+                    <p class="lead p-cardaio">Temos as melhores opções de massas e recheio de bolos para você arrazar e
+                        deixar
+                        todos convidados apaixonados.
+                    </p>
+                    <p class="lead p-cardaio">
+                        Veja nosso cardápio, temos certeza que ficará com água na boca com essa explosão de sabores.
+                    </p>
+                    <!-- Botão para acionar modal -->
+                    <button type="button" class="btn  mt-1 mb-2 ml-3 botao" data-toggle="modal"
+                        data-target="#ExemploModalCentralizado">
+                        Abrir Cardápio
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog"
+                        aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="TituloModalCentralizado">Cardápio</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./img/cardapio-2.png" alt="" width="100%">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+                        style="width: 430px; height: 480px;" src="./img/foto-cardapio.1.jpg"
+                        data-holder-rendered="true">
+                </div>
+            </div>
+
+
+
+            <hr class="featurette-divider">
+
+
+
+
+            <div class="row featurette segundo-bloco">
+                <div class="col-md-7 order-md-2 ">
+                    <h2 class="featurette-heading  cabecalho-segundo-bloco">Huummm que delicía!!!
+                        <i class="fa-solid fa-face-grin-hearts"></i>
+                    </h2>
+                    <p class=" text-muted text-center sobremesa">
+                        A vida é curta demais para viver de dieta. Coma bolo!
+
+                        <i class="fa-solid fa-cake-candles"></i>
+                    </p>
+                    <p class="lead p-demonstracao">Os mais deliciosos recheio de toda região, sabor puro e único.</p>
+
+                    <!-- Botão para acionar modal -->
+                    <button type="button" class="btn  m-3 botao" data-toggle="modal" data-target="#modalExemplo">
+                        Abrir uma demonstração
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Bolo com massa de chocolate/
+                                        Recheio de Maracujá trufado</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <video controls>
+                                        <source src="./videos/VID-20220807-WA0011.mp4" type="video/mp4 ">
+                                    </video>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+                        style="width: 410px; height: 460px;" src="./img/bolo-ninho.jpeg" data-holder-rendered="true">
+                </div>
+            </div>
+
+
+
+            <hr class="featurette-divider">
+
+
+
+            <div class="row featurette">
+                <div class="container">
+                    <h1 class="text-center cabecalho-trabalho">
+                            Trabalhos realizados
+                    </h1>
+                </div>
+               
+
+                <div class="col-md-3">
+                   <img class="featurette-image img-fluid mx-auto mt-5" data-src="holder.js/500x500/auto"
+                            alt="500x500" style="width: 400px; height: 350px;" src="./img/bolo-nana-.jpeg"
+                            data-holder-rendered="true">
+                            <div class="modal-body">
+                                <a  href="img/bolo-nana-sabor.jpeg"  role="button" class="btn botao popover-test " title="Título do popover" data-content="O conteúdo do popover é definido aqui.">Clique aqui</a>
+                            </div>
+                </div>
+
+
+
+                <div class="col-md-3">
+                     <img class="featurette-image img-fluid mx-auto mt-5" data-src="holder.js/500x500/auto"
+                            alt="500x500" style="width: 400px; height: 350px;" src="./img/frozen.jpg"
+                            data-holder-rendered="true">
+                            <div class="modal-body">
+                                <a  href="img/bolo-morango.jpeg"  role="button" class="btn botao popover-test " title="Título do popover" data-content="O conteúdo do popover é definido aqui.">Clique aqui</a>
+                            </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <img class="featurette-image img-fluid mx-auto mt-5" data-src="holder.js/500x500/auto"
+                            alt="500x500" style="width: 400px; height: 350px;" src="./img/superman.jpg"
+                            data-holder-rendered="true">
+                            <div class="modal-body">
+                                <a  href="img/bolo.jpeg"  role="button" class="btn botao popover-test " title="Título do popover" data-content="O conteúdo do popover é definido aqui.">Clique aqui</a>
+                            </div>
+                </div>
+
+
+                <div class="col-md-3">
+                     <img class="featurette-image img-fluid mx-auto mt-5" data-src="holder.js/500x500/auto"
+                            alt="500x500" style="width: 400px; height: 350px;" src="./img/trintou.jpg"
+                            data-holder-rendered="true">
+                            <div class="modal-body">
+                                <a  href="img/img-trintou.jpeg"  role="button" class="btn botao popover-test " title="Título do popover" data-content="O conteúdo do popover é definido aqui.">Clique aqui</a>
+                            </div>
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- /FIM DAS FEATUREZINHAS *-* -->
+
+        </div><!-- /.container -->
+
+
+        <!-- FOOTER -->
+        <footer class="container">
+            <p class="float-right"><a href="#">Voltar ao topo</a></p>
+            <p>© Sô-DiDi S.A., 2022 · Feito com amor. </p>
+        </footer>
+    </main>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

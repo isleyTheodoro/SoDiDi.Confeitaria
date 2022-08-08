@@ -1,0 +1,61 @@
+.didi-logo{
+    height: 170px;
+    background: url(../img/logo.didi.make.jpg) no-repeat left;
+}
+body{
+background-color: rgb(238, 214, 214);
+}
+
+video{
+    width: 460px;
+    height: 490px;
+}
+.primeiro-bloco{
+    background-color: #eecfcc4f;
+    border-radius: 5px;
+}
+.sobremesa{
+    background-color: #f2aca785;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.cabecalho-cardapio{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F19F9F;
+    margin-top: 30px;
+    text-align: center;
+} 
+.p-cardaio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #b6afae;
+}
+img{
+    border-radius: 5px;
+}
+.botao{
+    background-color:#d87878 ;
+    color: #ffff;
+}
+.botao:hover{
+    background-color: #fa9696 ;    
+}
+/*---------------------------------------------------------*/
+.segundo-bloco{
+    background-color: #fff1f1d3;
+}
+.cabecalho-segundo-bloco{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F19F9F;
+    margin-top: 30px;
+
+}
+.p-demonstracao{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #b6afae;
+}
+/*==========================================================*/
+.cabecalho-trabalho{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F19F9F;
+    margin-top: 30px;
+}
